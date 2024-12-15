@@ -1,0 +1,555 @@
+*{
+    padding: 0;
+    margin: 0;
+    max-width: 1440px;
+    width: 100%;
+}
+
+.lighthouse {
+  background-color: #ebe8df;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%; max-width: 1440px;
+}
+
+.lighthouse .div {
+  background-color: #ebe8df;
+  width: 100%;       /* Make the width adapt to the parent container */
+  max-width: 1440px; /* Limit the width to 1440px on larger screens */
+  height: 4853px;    /* Retain height */
+  position: relative;
+}
+
+.lighthouse .main-photo {
+  position: absolute;
+  width: 100%;
+  max-width: 1440px;
+  height: 538px;
+  top: 325px;
+  left: 0;
+  background-image: url(images/Aurelie\ YOGA\ pictures-15\ 1.jpg);
+  background-size: 100% 100%;
+}
+
+.lighthouse .text-wrapper {
+  position: absolute;
+  top: 347px;
+  left: 375px;
+  font-family: "Great Vibes", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 64px;
+  letter-spacing: 0;
+  line-height: 64.8px;
+  max-width: max-content;
+}
+
+.lighthouse .main-title {
+  position: absolute;
+  width: 900px;
+  height: 120px;
+  top: 168px;
+  left: 257px;
+}
+
+.lighthouse .overlap-group {
+  position: relative;
+  width: 1417px;
+  height: 194px;
+  top: -37px;
+  left: -270px;
+  background-color: #ffffff;
+  overflow: hidden;
+}
+
+.lighthouse .overlap {
+  position: absolute;
+  width: 709px;
+  height: 107px;
+  top: 46px;
+  left: 366px;
+}
+
+.lighthouse .lighthouse-yoga {
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-family: "Cagliostro", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 70px;
+  letter-spacing: 0;
+  line-height: 70.9px;
+  white-space: nowrap;
+}
+
+.lighthouse .with-aurelie {
+  position: absolute;
+  top: 66px;
+  left: 5px;
+  font-family: "Cagliostro", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 40px;
+  letter-spacing: 0;
+  line-height: 40.5px;
+  white-space: nowrap;
+}
+
+.lighthouse .svgjs {
+  position: absolute;
+  width: 105px;
+  height: 120px;
+  top: 37px;
+  left: 257px;
+}
+
+.lighthouse .navbar {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 61px;
+  position: absolute;
+  top: 58px;
+}
+
+.lighthouse .text-wrapper-2 {
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  font-family: "Gabarito", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 24px;
+  letter-spacing: -0.53px;
+  line-height: 36px;
+  white-space: nowrap;
+}
+
+.lighthouse .frame {
+  position: absolute;
+  width: 1233px;
+  height: 569px;
+  top: 931px;
+  left: 61px;
+}
+
+.lighthouse .overlap-2 {
+  position: absolute;
+  width: 649px;
+  height: 569px;
+  top: 0;
+  left: 0;
+}
+
+.lighthouse .ellipse {
+  width: 304px;
+  height: 304px;
+  top: 104px;
+  left: 0;
+  border-radius: 152px;
+  position: absolute;
+  background-color: #3dd2cc;
+  filter: blur(100px);
+}
+
+.lighthouse .aurelie-YOGA {
+  height: 569px;
+  top: 0;
+  left: 152px;
+  position: absolute;
+  width: 497px;
+  border-radius: 20px;
+}
+
+.lighthouse .hello-beautiful {
+  position: absolute;
+  width: 564px;
+  top: 187px;
+  left: 669px;
+  font-family: "Gabarito", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: 24.3px;
+}
+
+.lighthouse .about-me {
+  position: absolute;
+  top: 102px;
+  left: 668px;
+  font-family: "Gabarito", Helvetica;
+  font-weight: 600;
+  color: #000000;
+  font-size: 64px;
+  letter-spacing: 0;
+  line-height: 64.8px;
+  max-width: fit-content;
+  overflow: hidden;
+}
+
+.lighthouse .frame-2 {
+  position: absolute;
+  width: 1081px;
+  height: 477px;
+  top: 1557px;
+  left: 146px;
+}
+
+.lighthouse .overlap-3 {
+  position: absolute;
+  width: 497px;
+  height: 477px;
+  top: 0;
+  left: 584px;
+}
+
+.lighthouse .ellipse-2 {
+  width: 228px;
+  height: 228px;
+  top: 0;
+  left: 135px;
+  border-radius: 114px;
+  position: absolute;
+  background-color: #3dd2cc;
+  filter: blur(100px);
+}
+
+.lighthouse .img {
+  height: 382px;
+  top: 95px;
+  left: 0;
+  position: absolute;
+  width: 497px;
+  border-radius: 20px;
+}
+
+.lighthouse .joining-our-group {
+  position: absolute;
+  width: 564px;
+  top: 179px;
+  left: 0;
+  font-family: "Gabarito", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 24px;
+  text-align: right;
+  letter-spacing: 0;
+  line-height: 24.3px;
+}
+
+.lighthouse .group-classes {
+  position: absolute;
+  top: 94px;
+  left: 73px;
+  font-family: "Gabarito", Helvetica;
+  font-weight: 600;
+  color: #000000;
+  font-size: 64px;
+  text-align: right;
+  letter-spacing: 0;
+  line-height: 64.8px;
+  text-align: right;
+  max-width: max-content;
+}
+
+.lighthouse .group {
+  position: absolute;
+  width: 205px;
+  height: 61px;
+  top: 416px;
+  left: 361px;
+}
+
+.lighthouse .div-wrapper {
+  position: relative;
+  width: 203px;
+  height: 61px;
+  background-color: #3dd2cc;
+  border-radius: 15px;
+}
+
+.lighthouse .text-wrapper-3 {
+  position: absolute;
+  top: 19px;
+  left: 25px;
+  font-family: "Gabarito", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 24px;
+  text-align: right;
+  letter-spacing: 0;
+  line-height: 24.3px;
+  max-width: max-content;
+}
+
+.lighthouse .frame-3 {
+  position: absolute;
+  width: 1229px;
+  height: 418px;
+  top: 2186px;
+  left: 63px;
+}
+
+.lighthouse .overlap-4 {
+  position: absolute;
+  width: 647px;
+  height: 418px;
+  top: 0;
+  left: 0;
+}
+
+.lighthouse .ellipse-3 {
+  width: 300px;
+  height: 300px;
+  top: 118px;
+  left: 0;
+  border-radius: 150px;
+  position: absolute;
+  background-color: #3dd2cc;
+  filter: blur(100px);
+}
+
+.lighthouse .aurelie-YOGA-2 {
+  height: 286px;
+  top: 0;
+  left: 150px;
+  position: absolute;
+  width: 497px;
+}
+
+.lighthouse .private-yoga-classes {
+  position: absolute;
+  width: 564px;
+  top: 84px;
+  left: 665px;
+  font-family: "Gabarito", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: 24.3px;
+}
+
+.lighthouse .private-classes {
+  position: absolute;
+  top: -1px;
+  left: 662px;
+  font-family: "Gabarito", Helvetica;
+  font-weight: 600;
+  color: #000000;
+  font-size: 64px;
+  text-align: right;
+  letter-spacing: 0;
+  line-height: 64.8px;
+  max-width:max-content;
+}
+
+.lighthouse .overlap-group-wrapper {
+  position: absolute;
+  width: 205px;
+  height: 61px;
+  top: 225px;
+  left: 667px;
+}
+
+.lighthouse .frame-4 {
+  position: absolute;
+  width: 1162px;
+  height: 334px;
+  top: 2624px;
+  left: 147px;
+}
+
+.lighthouse .overlap-5 {
+  position: absolute;
+  width: 579px;
+  height: 334px;
+  top: 0;
+  left: 583px;
+}
+
+.lighthouse .ellipse-4 {
+  width: 228px;
+  height: 228px;
+  top: 55px;
+  left: 351px;
+  border-radius: 114px;
+  position: absolute;
+  background-color: #3dd2cc;
+  filter: blur(100px);
+}
+
+.lighthouse .aurelie-YOGA-3 {
+  height: 334px;
+  top: 0;
+  left: 0;
+  position: absolute;
+  width: 497px;
+}
+
+.lighthouse .p {
+  position: absolute;
+  width: 564px;
+  top: 84px;
+  left: 0;
+  font-family: "Gabarito", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 24px;
+  text-align: right;
+  letter-spacing: 0;
+  line-height: 24.3px;
+}
+
+.lighthouse .kids-yoga {
+  position: absolute;
+  top: -1px;
+  left: 243px;
+  font-family: "Gabarito", Helvetica;
+  font-weight: 600;
+  color: #000000;
+  font-size: 64px;
+  text-align: right;
+  letter-spacing: 0;
+  line-height: 64.8px;
+  max-width: max-content;
+}
+
+.lighthouse .group-2 {
+  position: absolute;
+  width: 205px;
+  height: 61px;
+  top: 273px;
+  left: 360px;
+}
+
+.lighthouse .frame-5 {
+  position: absolute;
+  width: 1079px;
+  height: 481px;
+  top: 2987px;
+  left: 213px;
+}
+
+.lighthouse .overlap-6 {
+  position: absolute;
+  width: 497px;
+  height: 481px;
+  top: 0;
+  left: 0;
+}
+
+.lighthouse .ellipse-5 {
+  width: 228px;
+  height: 228px;
+  top: 0;
+  left: 27px;
+  border-radius: 114px;
+  position: absolute;
+  background-color: #3dd2cc;
+  filter: blur(100px);
+}
+
+.lighthouse .aurelie-YOGA-4 {
+  height: 358px;
+  top: 123px;
+  left: 0;
+  position: absolute;
+  width: 497px;
+}
+
+.lighthouse .reiki-is-a-healing {
+  position: absolute;
+  width: 564px;
+  top: 207px;
+  left: 515px;
+  font-family: "Gabarito", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: 24.3px;
+}
+
+.lighthouse .reiki {
+  position: absolute;
+  top: 122px;
+  left: 513px;
+  font-family: "Gabarito", Helvetica;
+  font-weight: 600;
+  color: #000000;
+  font-size: 64px;
+  text-align: right;
+  letter-spacing: 0;
+  line-height: 64.8px;
+  max-width: max-content;
+}
+
+.lighthouse .group-3 {
+  position: absolute;
+  width: 205px;
+  height: 61px;
+  top: 420px;
+  left: 517px;
+}
+
+.lighthouse .frame-6 {
+  position: absolute;
+  width: 1081px;
+  height: 535px;
+  top: 3620px;
+  left: 146px;
+}
+
+.lighthouse .overlap-7 {
+  position: absolute;
+  width: 497px;
+  height: 535px;
+  top: 0;
+  left: 584px;
+}
+
+.lighthouse .ellipse-6 {
+  width: 291px;
+  height: 291px;
+  top: 244px;
+  left: 109px;
+  border-radius: 145.5px;
+  position: absolute;
+  background-color: #3dd2cc;
+  filter: blur(100px);
+}
+
+.lighthouse .aurelie-YOGA-5 {
+  height: 358px;
+  top: 0;
+  left: 0;
+  position: absolute;
+  width: 497px;
+  border-radius: 20px;
+}
+
+.lighthouse .retreats {
+  position: absolute;
+  top: -1px;
+  left: 229px;
+  font-family: "Gabarito-SemiBold", Helvetica;
+  font-weight: 600;
+  color: #000000;
+  font-size: 64px;
+  text-align: right;
+  letter-spacing: 0;
+  line-height: 64.8px;
+  max-width: max-content;
+}
+
+.lighthouse .group-4 {
+  position: absolute;
+  width: 205px;
+  height: 61px;
+  top: 297px;
+  left: 361px;
+}
